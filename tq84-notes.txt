@@ -1,4 +1,18 @@
-await vscode.commands.executeCommand('interactive.history.previous');
+{ Command IDs
+
+  Commands trigger actions in Visual Studio Code.
+
+  If you have ever configured a keybinding, then you've worked with commands.
+
+  Commands are also used by extensions to expose functionality to users, bind to actions in VS Code's UI, and implement internal logic
+
+   await vscode.commands.executeCommand('interactive.history.previous');
+   
+      -> File > Preferences > Keyboard Shortcuts
+          -> Copy Command Id 
+
+
+}
 
 @RegisterAction
 class MoveUp extends BaseMovement {
