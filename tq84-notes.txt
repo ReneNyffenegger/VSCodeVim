@@ -12,6 +12,7 @@
           -> Copy Command Id 
 
 
+    export function getCommands(filterInternal?: boolean): Thenable<string[]>;
 }
 
 @RegisterAction
