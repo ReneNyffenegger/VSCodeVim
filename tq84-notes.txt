@@ -1,0 +1,6 @@
+await vscode.commands.executeCommand('interactive.history.previous');
+
+@RegisterAction
+class MoveUp extends BaseMovement {
+  …
+}
